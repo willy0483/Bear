@@ -14,38 +14,33 @@ export const theme = {
       l: "992px",
       xl: "1200px",
     },
-    mobile: {
-      primary: {
-        rows: "1fr 1fr 9fr 1fr",
+    layout: {
+      mobile: {
+        rows: "1fr 9fr 1fr",
         columns: "5fr 1fr",
         areas: `
-                "header navbar"
-                "sidebar sidebar"
-                "main main"
-                "footer footer"
-            `,
+          "header navbar"
+          "main main"
+          "footer footer"
+        `,
       },
-    },
-    tablet: {
-      primary: {
+      tablet: {
         rows: "1fr 10fr 1fr",
-        columns: "repeat(6,1fr)",
+        columns: "repeat(6, 1fr)",
         areas: `
-                "header header header header navbar navbar"
-                "sidebar main main main main main"
-                "footer footer footer footer footer footer"
-            `,
+          "header header header header navbar navbar"
+          "main main main main main main"
+          "footer footer footer footer footer footer"
+        `,
       },
-    },
-    desktop: {
-      primary: {
+      desktop: {
         rows: "1fr 10fr 1fr",
-        columns: "repeat(6,1fr)",
+        columns: "repeat(6, 1fr)",
         areas: `
-                "header header navbar navbar navbar navbar"
-                "main main main main main sidebar"
-                "footer footer footer footer footer footer"
-            `,
+          "header header navbar navbar navbar navbar"
+          "main main main main main main"
+          "footer footer footer footer footer footer"
+        `,
       },
     },
   },
